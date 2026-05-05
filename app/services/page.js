@@ -1,11 +1,7 @@
+"use client";
 import Link from 'next/link';
 import { SERVICES } from '../../lib/data';
 
-export const metadata = {
-  title: 'AI Consulting Services',
-  description: "Explore Xcel Trade LLC's full suite of enterprise AI services: AI adoption consulting, LLM development, RAG assistants, agentic workflows, document automation, cloud architecture, and data engineering.",
-  alternates: { canonical: 'https://www.xceltradellc.com/services' },
-};
 
 export default function ServicesPage() {
   return (
