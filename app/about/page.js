@@ -1,11 +1,7 @@
+"use client";
 import Link from 'next/link';
 import { INDUSTRIES, STATS, SITE_URL } from '../../lib/data';
 
-export const metadata = {
-  title: 'About Xcel Trade LLC | AI Consulting Firm Founded 2012',
-  description: 'Learn about Xcel Trade LLC — an enterprise AI consulting firm founded in 2012, led by CEO Annie Saeed. We help organizations adopt AI safely, strategically, and at scale.',
-  alternates: { canonical: `${SITE_URL}/about` },
-};
 
 const VALUES = [
   { icon: '◈', title: 'Honesty First', body: "We tell clients what they need to hear, not what they want to hear. If AI isn't the right solution for a problem, we say so." },
