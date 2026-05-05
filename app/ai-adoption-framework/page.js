@@ -2,11 +2,6 @@
 import Link from 'next/link';
 import { FRAMEWORK_PHASES, FAQS, SERVICES, SITE_URL } from '../../lib/data';
 
-export const metadata = {
-  title: "AI Adoption Framework | Xcel Trade LLC's 5-Phase Methodology",
-  description: "Explore Xcel Trade LLC's proven AI Adoption Framework — a 5-phase methodology covering readiness assessment, strategy, pilot deployment, scaled rollout, and continuous improvement.",
-  alternates: { canonical: `${SITE_URL}/ai-adoption-framework` },
-};
 
 export default function FrameworkPage() {
   const faqSchema = {
