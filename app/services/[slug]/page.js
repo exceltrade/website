@@ -1,4 +1,3 @@
-"use client";
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SERVICES, SITE_URL } from '../../../lib/data';
@@ -146,30 +145,6 @@ export default function ServicePage({ params }) {
         </div>
       </section>
 
-      <style jsx>{`
-        .svc-hero { background: var(--bg-1); border-bottom: 1px solid var(--border); }
-        .bc { display: flex; align-items: center; gap: 8px; margin-bottom: 28px; }
-        .bc a:hover { color: var(--tx-1); }
-        .hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 56px; align-items: start; }
-        .svc-ico { font-size: 46px; margin-bottom: 18px; }
-        .svc-desc { max-width: 520px; }
-        .feats-box { padding: 28px; }
-        .feats-cap { letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 18px; }
-        .feats-list { display: flex; flex-direction: column; gap: 13px; }
-        .feats-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 13.5px; color: var(--tx-2); }
-        .feat-chk { font-weight: 700; flex-shrink: 0; }
-        .step-card { padding: 24px; }
-        .step-num { font-family: var(--font-d); font-size: 28px; font-weight: 800; margin-bottom: 10px; }
-        .step-title { font-family: var(--font-d); font-size: 15px; font-weight: 700; margin-bottom: 8px; }
-        .rel-card { display: flex; align-items: center; gap: 14px; padding: 18px 22px; text-decoration: none; }
-        .rel-ico { font-size: 22px; flex-shrink: 0; }
-        .svc-cta {
-          padding: clamp(40px,5vw,64px) clamp(28px,4vw,56px);
-          border-color: color-mix(in srgb, var(--sc) 25%, transparent);
-        }
-        @media (max-width: 880px) { .hero-grid { grid-template-columns: 1fr; } }
-        @media (max-width: 600px) { .g4 { grid-template-columns: repeat(2,1fr); } }
-      `}</style>
     </>
   );
 }
