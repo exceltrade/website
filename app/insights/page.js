@@ -1,11 +1,8 @@
+"use client";
 import Link from 'next/link';
 import { BLOG_POSTS, SITE_URL } from '../../lib/data';
 
-export const metadata = {
-  title: 'AI Insights & Expert Articles',
-  description: 'Expert insights on enterprise AI adoption, LLMs, RAG systems, agentic workflows, compliance, and cloud AI from the team at Xcel Trade LLC.',
-  alternates: { canonical: `${SITE_URL}/insights` },
-};
+
 
 const CATS = ['All', 'AI Adoption', 'RAG', 'Agentic AI', 'Compliance', 'Cloud AI'];
 
