@@ -1,11 +1,7 @@
+"use client";
 import { SITE_URL } from '../../lib/data';
 import ContactForm from './ContactForm';
 
-export const metadata = {
-  title: 'Contact Xcel Trade LLC | Get an AI Consulting Consultation',
-  description: 'Ready to transform your enterprise with AI? Contact Xcel Trade LLC to schedule a consultation with our AI experts and start your AI adoption journey today.',
-  alternates: { canonical: `${SITE_URL}/contact` },
-};
 
 const STEPS = [
   { n: '01', t: 'We respond within one business day to schedule an initial call.' },
