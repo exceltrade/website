@@ -1,4 +1,3 @@
-"use client";
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { BLOG_POSTS, SERVICES, SITE_URL } from '../../../lib/data';
