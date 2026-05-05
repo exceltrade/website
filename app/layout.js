@@ -35,13 +35,7 @@ export const metadata = {
     googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
   },
 };
-export const metadata = {
-  title: 'Xcel Trade LLC | Enterprise AI Consulting & Adoption Services',
-  description:
-    'Xcel Trade LLC delivers enterprise AI consulting, LLM development, RAG assistants, and agentic workflows. Founded 2012. Transform your business with expert AI solutions.',
-  alternates: { canonical: 'https://www.xceltradellc.com' },
-  openGraph: { url: 'https://www.xceltradellc.com', images: [{ url: '/images/og/homepage.jpg', width: 1200, height: 630 }] },
-};
+
 export default function RootLayout({ children }) {
   const orgSchema = {
     '@context': 'https://schema.org',
