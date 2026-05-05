@@ -1,3 +1,4 @@
+"use client";
 import Link from 'next/link';
 import { SERVICES, STATS, CASE_STUDIES, BLOG_POSTS, INDUSTRIES, FRAMEWORK_PHASES } from '../lib/data';
 
