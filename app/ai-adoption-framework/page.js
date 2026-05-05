@@ -1,3 +1,4 @@
+"use client";
 import Link from 'next/link';
 import { FRAMEWORK_PHASES, FAQS, SERVICES, SITE_URL } from '../../lib/data';
 
