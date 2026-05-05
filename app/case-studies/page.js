@@ -1,11 +1,7 @@
+"use client";
 import Link from 'next/link';
 import { CASE_STUDIES, SITE_URL } from '../../lib/data';
 
-export const metadata = {
-  title: 'AI Consulting Case Studies',
-  description: "See real results from Xcel Trade LLC's enterprise AI engagements. Case studies across financial services, healthcare, legal, and logistics industries.",
-  alternates: { canonical: `${SITE_URL}/case-studies` },
-};
 
 export default function CaseStudiesPage() {
   return (
